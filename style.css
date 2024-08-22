@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.playwrite-cl-font {
+  font-family: "Playwrite CL", cursive;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.montserrat-font {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:400;
+    font-style: normal;
+  }
+  
+.nav-bar{
+    padding: 2rem 5rem 4rem 0;
+    background-color: rgb(37, 43, 41);
+}   
+
+.nav-bar a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-bar a:hover {
+    color: aqua;
+}
+
+.nav-bar li { 
+    list-style-type: none;
+    display: inline-block;
+    padding-right: 2rem;
+}
+
+ .nav-bar ul {
+    float: right;
+    padding-top: 1rem;
+}
+
+.nav-bar h2 {
+    float: left;
+    padding: 0 5rem;
+    color:aqua;
+}
+
+.main-div {
+    background-image: url(../images/moun.jpg);
+    background-size: cover;
+    text-align: center;
+    height: 86.2vh;
+}
+
+.main-div h1, h2 {
+    color: white;
+}
+
+.main-div h2 {
+    padding-top: 8rem;
+    font-size: 3rem;
+}
+
+.main-div h1 {
+    font-size: 7rem;
+    font-weight: 800;
+}
+.main-div .btn {
+    background-color: aqua;
+    color:white;
+    border-radius: 0.3rem;
+    padding: 1.5rem 3rem;
+    margin-top: 2rem;
+    border:none;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 1rem;
+    letter-spacing: 0.4rem;
+}
+
+.main-div .btn:hover {
+    background-color: white;
+    color: rgb(37, 43, 41);
+    border: 1px solid rgb(37, 43, 41);;
+}
